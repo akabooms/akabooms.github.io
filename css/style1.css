@@ -9,7 +9,8 @@ body{
     overflow-x: hidden;
 }
 .pc{
-    color:black
+    color:white;
+    text-shadow: 2px 2px 4px black;
 }
 
 a {
@@ -21,8 +22,7 @@ a {
     margin: auto;
 }
 nav{
-    background:rgb(104, 101, 101);
-    color:black;
+    background:black;
     overflow:auto;
 }
 
@@ -39,7 +39,7 @@ nav ul li a{
     display: inline-block;
     padding: 20px;
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Open Sans';
     font-size: 20px;
     animation-name: links;
     animation-duration: 3s;
@@ -50,12 +50,12 @@ nav ul li a{
 }
 
 .current{
-    background:gray;
-    color:burlywood;
+    background:black;
+    color:white;
 }
 
 nav ul li a:hover{
-    background:gray;
+    background:black;
     transform: rotateY(360deg);
 }
 .container .menu .logo{
@@ -63,7 +63,7 @@ nav ul li a:hover{
     padding-top: 15px;
     padding-left: 20px;
     font-size: 30px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Open Sans';
 }
 
 @keyframes links{
@@ -78,44 +78,51 @@ nav ul li a:hover{
     background-size: cover;
     margin:auto;
     height:600px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Open Sans', serif;
     display: flex;
     flex-flow: row wrap;
+    
 
 }
 
 .imgtxt{
     padding-top: 170px;
     text-align: center;
-    color:white;
+    color:black;
     line-height: 1.2em;
     position: relative;
     margin: auto;
     animation-name: txt;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
+    text-shadow: 2px 2px 4px white;
     
 }
 
 @keyframes txt{
     0% {left: -2000px}
-    100% {left: 2vw }
+    100% {left: 0vw }
 }
 
 .imgtxt h1{
     font-size: 60px;
     line-height: 1.2em;
+    font-family: 'Cinzel', sans-serif;
+    text-shadow: 2px 2px 4px white;
 }
 
 .imgtxt p{
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 1.6;
+    color:black;
+    text-shadow: 2px 2px 4px white;
 }
 
 .btn {
     display: inline-block;
     font-size: 18px;
     color: black;
-    background:burlywood;
+    background:white;
     border:none;
     cursor: pointer;
     margin: auto;
@@ -124,6 +131,7 @@ nav ul li a:hover{
     opacity:0;
     animation: btn 4s ease-in 3s forwards;
     border-radius: 50%;
+    font-family: 'open sans';
 }
 
 .btn a{
@@ -153,7 +161,7 @@ nav ul li a:hover{
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
-    background: gray;
+    background: black;
     font-family: 'Cinzel', serif;
 }
 .twbl .fbl p{
@@ -166,8 +174,8 @@ nav ul li a:hover{
 .lbl{
     background:url(/img/photo-1.jpg) no-repeat;
     float: right;
-    width:50%;
-    min-height:100%;
+    width: 50%;
+   
 }
 
 .twbl .fbl h2{
@@ -244,9 +252,9 @@ i {
     margin: auto;
     border: none;
     padding: 20px;
-    background-color: gray;
-    color: white;    
-    font-family: 'Kaushan Script', cursive;
+    background-color: grey;
+    color: black;    
+    font-family: 'Open Sans', cursive;
     word-spacing: 1px;
     font-size: 15px;
 }
@@ -280,7 +288,7 @@ i {
 
 .right img{
     display: block;
-    width: 70%;
+    width: 500%;
     border-radius: 50%;
     margin: auto;
 }
