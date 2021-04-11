@@ -46,7 +46,7 @@ export const homeObjOne = {
       "come back shortly",
     buttonLabel: '',
     imgStart: 'start',
-    img: require('../../images/logowhite.JPG').default,
+    img: require('../../images/profile.JPG').default,
     alt: '',
     start: 'true'
   };
