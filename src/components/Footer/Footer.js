@@ -1,24 +1,24 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
+// import { Button } from '../../gstyles';
 import {
-  FaFacebook,
+  // FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  // FaYoutube,
+  // FaTwitter,
+  // FaLinkedin
 } from 'react-icons/fa';
 import {
   FooterContainer,
-  FooterSubscription,
-  FooterSubText,
-  FooterSubHeading,
-  Form,
-  FormInput,
+  // FooterSubscription,
+  // FooterSubText,
+  // FooterSubHeading,
+  // Form,
+  // FormInput,
   FooterLinksContainer,
   FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
+  // FooterLinkItems,
+  // FooterLinkTitle,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -31,7 +31,7 @@ import {
 function Footer() {
   return (
     <FooterContainer>
-      <FooterSubscription>
+      {/* <FooterSubscription>
         <FooterSubHeading>
           Join our exclusive membership to receive the latest news and trends
         </FooterSubHeading>
@@ -40,18 +40,15 @@ function Footer() {
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
         </Form>
-      </FooterSubscription>
+      </FooterSubscription> */}
       <FooterLinksContainer>
         <FooterLinksWrapper>
-          <FooterLinkItems>
+          {/* <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
-          </FooterLinkItems>
-          <FooterLinkItems>
+          </FooterLinkItems> */}
+          {/* <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
             <FooterLink to='/'>Contact</FooterLink>
             <FooterLink to='/'>Support</FooterLink>
@@ -73,24 +70,24 @@ function Footer() {
             <FooterLink to='/'>Facebook</FooterLink>
             <FooterLink to='/'>Youtube</FooterLink>
             <FooterLink to='/'>Twitter</FooterLink>
-          </FooterLinkItems>
+          </FooterLinkItems> */}
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            ULTRA
+            AKA
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>AKA © 2021</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            {/* <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
-            </SocialIconLink>
+            </SocialIconLink> */}
             <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink
+            {/* <SocialIconLink
               href={
                 '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
               }
@@ -105,7 +102,7 @@ function Footer() {
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
-            </SocialIconLink>
+            </SocialIconLink> */}
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>
